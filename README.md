@@ -1,10 +1,10 @@
 # Word Generator
 
-A character-level language modeling library for generating plausible words in French language. Implements multiple architectures from simple statistical baselines to neural networks with gated activations.
+A character-level language modeling library for **generating plausible words in French language**. Implements multiple architectures from simple statistical baselines to neural networks with gated activations.
 
-By changing the initial wordsset, you may generate examples similar to any type of word (e.g., medical taxonomy) instead of just french words. This however could imply reconsidering the way the dataset is devised.
+By **changing the initial wordsset**, you may generate examples similar to any type of word (e.g., medical taxonomy) instead of just french words. This however could imply reconsidering the way the dataset is devised.
 
-Built from scratch using PyTorch tensors with custom layer implementations for educational transparency. Based on Andrej Karpathy's tutorials (makemore series), with additions based on a deeper reading of the original [WaveNet](https://arxiv.org/abs/1609.03499) paper (the main one being GatedActivation).
+Built from scratch using PyTorch tensors with custom layer implementations for educational transparency. Based on Andrej Karpathy's tutorials (makemore series), with additions based on a deeper reading of the original [WaveNet](https://arxiv.org/abs/1609.03499) paper.
 
 ## Overview
 

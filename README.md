@@ -2,7 +2,7 @@
 
 A character-level language modeling library for generating plausible words in any language. Implements multiple architectures from simple statistical baselines to neural networks with gated activations.
 
-Built from scratch using PyTorch tensors with custom layer implementations for educational transparency. Based on Andrej Karpathy's tutorials (makemore series).
+Built from scratch using PyTorch tensors with custom layer implementations for educational transparency. Based on Andrej Karpathy's tutorials (makemore series), with additions based on a deeper reading of the original [WaveNet](https://arxiv.org/abs/1609.03499) paper (the main one being GatedActivation).
 
 ## Overview
 

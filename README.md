@@ -16,11 +16,15 @@ This project provides four progressively sophisticated word generators:
 | **WaveNet** | Neural | N chars | Hierarchical architecture with gated activations |
 
 ## Installation
-
 ```bash
 git clone https://github.com/yourusername/word_generator.git
 cd word_generator
-pip install torch pydantic regex matplotlib
+pip install .
+```
+
+For development (includes testing and linting tools):
+```bash
+pip install -e ".[dev]"
 ```
 
 ## Repository Structure
